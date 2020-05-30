@@ -101,12 +101,12 @@
 		6F333AE52482F6C9002593E0 /* Spotter(1)-fitness app */ = {
 			isa = PBXGroup;
 			children = (
+				6F333B1B2482F7B7002593E0 /* View */,
+				6F333B1A2482F7AE002593E0 /* Model */,
+				6F333B192482F78D002593E0 /* Controller */,
 				6F333AE62482F6C9002593E0 /* AppDelegate.swift */,
 				6F333AE82482F6C9002593E0 /* SceneDelegate.swift */,
-				6F333AEA2482F6C9002593E0 /* ViewController.swift */,
-				6F333AEC2482F6C9002593E0 /* Main.storyboard */,
 				6F333AF22482F6D9002593E0 /* Assets.xcassets */,
-				6F333AF42482F6D9002593E0 /* LaunchScreen.storyboard */,
 				6F333AF72482F6D9002593E0 /* Info.plist */,
 				6F333AEF2482F6C9002593E0 /* Spotter_1__fitness_app.xcdatamodeld */,
 			);
@@ -129,6 +129,30 @@
 				6F333B0D2482F6DF002593E0 /* Info.plist */,
 			);
 			path = "Spotter(1)-fitness appUITests";
+			sourceTree = "<group>";
+		};
+		6F333B192482F78D002593E0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6F333AEA2482F6C9002593E0 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6F333B1A2482F7AE002593E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6F333B1B2482F7B7002593E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6F333AEC2482F6C9002593E0 /* Main.storyboard */,
+				6F333AF42482F6D9002593E0 /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
