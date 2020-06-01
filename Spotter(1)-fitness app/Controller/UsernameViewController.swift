@@ -18,4 +18,9 @@ class UsernameViewController: UIViewController {
         nameTextField.backgroundColor = .purple
        }
     
+    @IBAction func nextBtnTap(_ sender: UIButton) {
+         self.performSegue(withIdentifier: "toProfilePic" , sender: self)
+    }
+    
+    
 }
