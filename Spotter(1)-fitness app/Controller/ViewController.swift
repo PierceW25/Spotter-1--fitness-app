@@ -10,9 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var signUpBtn: UIButton!
+    @IBOutlet weak var loginBtn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        signUpBtn.layer.cornerRadius = 20.0
+        loginBtn.layer.cornerRadius = 20.0
     }
 
 
